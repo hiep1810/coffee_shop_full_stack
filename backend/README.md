@@ -37,7 +37,11 @@ From within the `./src` directory first ensure you are working using your create
 Each time you open a new terminal session, run:
 
 ```bash
-export FLASK_APP=api.py;
+export FLASK_APP=/src/api.py;
+export FLASK_ENV=development
+
+export UTH0_DOMAIN='your_auth0_domain'
+export API_AUDIENCE='auth0_audience'
 ```
 
 To run the server, execute:
